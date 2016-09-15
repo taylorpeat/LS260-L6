@@ -1,10 +1,12 @@
-module.exports = [{
-  title: "Home",
-  href: "/"
-}, {
-  title: "About",
-  href: "/"
-}, {
-  title: "Contact",
-  href: "/"
-}];
+module.exports = {
+  links: [{
+    title: "Home",
+    href: "/"
+  }, {
+    title: "About",
+    href: "/about"
+  }, {
+    title: "Contact",
+    href: "/"
+  }]
+};
