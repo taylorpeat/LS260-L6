@@ -15,9 +15,10 @@ module.exports = function(app) {
 
     setActiveNavTo(title);
 
-    res.render('index', {
-      title: title
-    });
+    res.sendFile(__dirname.replace(/routes/, "views") + "/index.html");
+    // res.render('index', {
+    //   title: title
+    // });
   });
 
   router.get('/about', function(req, res, next) {
@@ -25,7 +26,16 @@ module.exports = function(app) {
 
     setActiveNavTo(title);
 
+
     res.render('about', {
+      title: title
+    });
+  });
+
+  router.get('/test', function(req, res, next) {
+    var title = "Web Store";
+
+    res.render('index', {
       title: title
     });
   });
