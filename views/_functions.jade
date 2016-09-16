@@ -1,0 +1,16 @@
+-
+  function format(num) {
+    return num.toFixed(2);
+  }
+
+  function cartTotal() {
+    return cart.reduce(function(total, item) {
+      return (total.price ? total.price * total.quantity : total) + item.price * item.quantity;
+    });
+  }
+
+  function cartTotalItems() {
+    return cart.reduce(function(total, item) {
+      return (total.quantity ? total.quantity : total) + item.quantity;
+    })
+  }
