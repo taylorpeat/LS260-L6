@@ -68,7 +68,7 @@ h1 {
 #items a {
   display: inline-block;
   padding: 8px 15px;
-  font: normal 1.3em "Fjalla One", sans-serif;
+  font: "Fjalla One", sans-serif;
   text-decoration: none;
   color: #000;
   border: 3px double #01b0f0;
@@ -97,10 +97,15 @@ h1 {
 #products a {
   display: inline-block;
   padding: 8px 15px;
-  font: normal 1.3em "Fjalla One", sans-serif;
+  font: "Fjalla One", sans-serif;
   text-decoration: none;
   color: #000;
   border: 3px double #01b0f0;
+  background: #01b0f0;
+  padding: 5px 10px;
+  font-size: 0.9em;
+  border: none;
+  font-size: 1.3em;
   background: #ff358b;
 }
 dt {

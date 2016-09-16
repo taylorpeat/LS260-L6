@@ -8,7 +8,6 @@ var stylus = require('stylus');
 var nib = require('nib');
 
 var app = express();
-app.locals = require('./locals');
 
 var routes = require('./routes/all');
 

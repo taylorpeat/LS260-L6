@@ -8,25 +8,27 @@ colors = {
 }
 
 logos = {
-  "&.snes":
+  "&.snes": {
     height: 44px
-  "&.ps2":
+  },
+  "&.ps2": {
     height: 15px
     background-position: 0 -44px
-  "&.gc":
+  },
+  "&.gc": {
     height: 73px
     background-position: 0 -59px
+  }
 }
 
-button = function() {
-    display: inline-block
-    padding: 8px 15px
-    font: title_font
-    text-decoration: none
-    color: #000
-    border: 3px double colors.primary
-    background: colors.primary
-    padding: 5px 10px
-    font-size: 0.9em
-    border: none
-}
+button()
+  display: inline-block
+  padding: 8px 15px
+  font: title_font
+  text-decoration: none
+  color: #000
+  border: 3px double colors.primary
+  background: colors.primary
+  padding: 5px 10px
+  font-size: 0.9em
+  border: none
